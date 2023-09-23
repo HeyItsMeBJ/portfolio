@@ -1,0 +1,413 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+body {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    color: #ffffff;
+    /* padding: 0 50px; */
+    font-family: sans-serif;
+    box-shadow: 0px 0px 5px 5px #000;
+    z-index: 1000;
+    text-transform: uppercase;
+
+}
+
+.navbar .name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+
+}
+
+.navbar .name .bhupesh {
+    font-size: large;
+    color: rgb(60, 221, 45);
+    letter-spacing: 5px;
+
+}
+
+.navbar .name .dp {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    background: rgb(60, 221, 45);
+}
+
+.navbar .options {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+
+}
+
+.navbar .options a {
+    padding: 5px 25px;
+    text-decoration: none;
+    font-size: large;
+    color: #ffffff;
+    scroll-behavior: smooth;
+
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    /* z-index: -999; */
+    font-family: sans-serif;
+    position: relative;
+    background-color: rgb(4, 10, 3);
+}
+
+.home h1 {
+    padding-top: 250px;
+    margin: 0;
+    text-align: center;
+    color: rgb(60, 221, 45);
+    font-size: 56px;
+
+    letter-spacing: 10px;
+}
+
+.home h2 {
+
+    color: rgb(255, 255, 255);
+    padding: 0 300px;
+    text-align: center;
+    font-weight: 10;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.home .button {
+    width: 250px;
+    height: 60px;
+    background: rgb(1, 24, 1);
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 4px;
+    border-color: rgb(1, 24, 1);
+    border-radius: 6px;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+
+.home .button a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(60, 221, 45);
+
+}
+
+.home .socialmedia {
+    position: absolute;
+    top: 250px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 250px;
+    border-width: 4px;
+    border-radius: 5px;
+
+}
+
+.home .socialmedia ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+
+.home .socialmedia ul li {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.home .socialmedia ul li a {
+    color: rgb(4, 10, 3);
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .socialmedia ul li a ion-icon {
+    font-size: 32px;
+}
+
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background: rgb(4, 10, 3);
+    font-family: sans-serif;
+
+}
+
+.about .aboutme {
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+    color: rgb(60, 221, 45);
+    font-size: 48px;
+    font-family: sans-serif;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about .shortdis {
+    color: rgb(255, 255, 255);
+    padding: 0 300px;
+    text-align: center;
+    font-weight: 10;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.about .disskill {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 60px;
+}
+
+.about .disskill .con1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.about .disskill .con2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+
+}
+
+.about .disskill .con1 .head {
+
+    margin: 0;
+
+    color: rgb(60, 221, 45);
+    font-size: 30px;
+    font-family: sans-serif;
+
+    font-weight: 600;
+    height: 30%;
+
+}
+
+.about .disskill .con2 .head {
+
+    margin: 0;
+
+    color: rgb(60, 221, 45);
+    font-size: 30px;
+    font-family: sans-serif;
+
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.about .disskill .con1 .dis {
+    color: white;
+    font-size: 18px;
+}
+
+.about .disskill .con2 .skills {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 70%;
+}
+
+.about .disskill .con2 .skills .li1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about .disskill .con2 .skills .li2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about .disskill .con2 .skills .li1 div {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    color: rgb(4, 10, 3);
+}
+
+.about .disskill .con2 .skills .li2 div {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    color: rgb(4, 10, 3);
+}
+
+.contact {
+    width: 100%;
+    height: 150vh;
+    background: rgb(4, 10, 3);
+    font-family: sans-serif;
+    color: white;
+}
+
+.contact .contactme {
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+    color: rgb(60, 221, 45);
+    font-size: 48px;
+    font-family: sans-serif;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact .dis {
+    color: rgb(255, 255, 255);
+    padding: 0 300px;
+    text-align: center;
+    font-weight: 10;
+    font-size: 24px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.contact .form {
+    width: 50%;
+    height: 60%;
+    background: #ebfce9;
+    background-color: rgb(4, 10, 3);
+    display: flex;
+    justify-content: center;
+    border-width: 3px;
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 20px 1px #30ac30;
+}
+
+.contact .form form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    position: relative;
+}
+
+.contact .form form label {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #30ac30;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.contact .form form input {
+    padding: 15px 20px;
+    border: none;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: #ffffff;
+
+}
+.contact .form form textarea {
+    padding: 15px 20px;
+    border: none;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: #ffffff;
+    resize: none;
+}
+.contact .form form .sub{
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    width: 100px;
+    
+}
+.bottom{
+    width: 100%;
+    height: 40vh;
+    font-family: sans-serif;
+    background: #000;
+    color: white;
+}
+.bottom h2{
+    padding-left: 5vw;
+    margin: 0;
+    padding-top: 30px;
+    color: rgb(60, 221, 45);
+}
+.bottom p{
+    padding-left: 5vw;
+    width: 40vw;
+    font-size:small;
+    padding-bottom: 20px;
+}
+.bottom hr{
+    width: 80%;
+}
+.bottom h4{
+    font-size: small;
+    padding-right: 5px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
